@@ -2,11 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Admin from "./admin";
+import IRouter from "./router.js"
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Admin />
+    <IRouter />
   </React.StrictMode >,
   document.getElementById('root')
 );
